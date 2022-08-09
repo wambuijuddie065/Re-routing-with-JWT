@@ -1,0 +1,31 @@
+
+POST http://localhost:5000/user/signup
+Content-Type: application/json
+
+{
+        "email":"judy@gmail.com",
+        "name":"judy",
+        "password":"12345678"
+    }
+
+
+###
+
+POST http://localhost:5000/user/login
+Content-Type: application/json
+
+
+{
+        "email":"joy@gmail.com",
+        "password":"12345678"
+    }
+
+###
+
+GET http://localhost:5000/user/homepage
+token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImU1MWZiZGU3LWZiMGUtNGFmMS1iOTUyLWQ2M2IyNDhkYmMxNiIsImVtYWlsIjoianVkeUBnbWFpbC5jb20iLCJpYXQiOjE2NTk5OTM4NzEsImV4cCI6MTY1OTk5NzQ3MX0.iC-KPrRNLzJUpUSFuym5REyCKjn5g21e1hsL1ph3r7k
+
+###
+
+GET http://localhost:5000/user/check
+token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjFhZWFiNTBmLTUzNzItNGI2MS1iNjEyLTVmY2MxOTVmMjg1NiIsImVtYWlsIjoiam95QGdtYWlsLmNvbSIsIm5hbWUiOiJqb3kiLCJyb2xlIjoidXNlciIsImlhdCI6MTY2MDAzMjIzMiwiZXhwIjoxNjYwMDM1ODMyfQ.UDYJzjR1FhT0aRHlYF3w-NXtZWs9pTKlxlJ3aLaKmcQ

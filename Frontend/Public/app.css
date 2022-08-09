@@ -1,0 +1,23 @@
+.cont{
+    display: flex;
+    flex-direction: column;
+    width: 30vh;
+    justify-content: center;
+    margin: 100px;
+    gap: 10px;
+}
+
+.cont input{
+    padding: 5px;
+}
+
+.cont button{
+    background-color: blue;
+    border-style: none;
+    color: white;
+    padding: 10px 15px;
+}
+
+.text{
+    margin: 100px;
+}
